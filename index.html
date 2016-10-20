@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Triangle Tracker</h1>
+        </div><!--column-->
+      </div><!--row-->
+      <div class="row">
+        <form>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="side1">1st side:</label>
+              <input id="side1" class="form-control" type="text">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+          </div><!--column-->
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="side2">2nd side:</label>
+              <input id="side2" class="form-control" type="text">
+            </div>
+          </div><!--column-->
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="side3">3rd side:</label>
+              <input id="side3" class="form-control" type="text">
+            </div>
+          </div><!--column-->
+        </form>
+      </div><!--row-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="output">
+            <h3>Your triangle is <span id="type"></span>!!
+          </div>
+        </div><!--column-->
+      </div><!--row-->
+    </div><!--container-->
+  </body>
+</html>
