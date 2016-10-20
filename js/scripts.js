@@ -23,6 +23,9 @@ var isItATriangle = function() {
   else if ( (side1 + side3) <= side2 ) {
     return "not a triangle";
   }
+  else if (!(side1) || !(side2) || !(side3)){
+    return "not a triangle. Please enter three numerical values greater than zero";
+  }
   else {
     return whatKindOfTriangle();
   }
